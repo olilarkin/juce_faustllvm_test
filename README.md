@@ -10,5 +10,4 @@ This is an Introjucer project for building a command line app to test the [juce_
   University of York  
   License: none
   
-  [www.cmrcyork.org](www.cmrcyork.org)  
-  [www.olilarkin.co.uk](www.olilarkin.co.uk) 
+  www.cmrcyork.org | www.olilarkin.co.uk
