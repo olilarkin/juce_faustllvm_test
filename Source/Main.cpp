@@ -6,6 +6,11 @@ int main (int argc, char* argv[])
   
   // Must initialize with Faust Libraries directory
   pi.initialize(File::getCurrentWorkingDirectory());
+  
+  // set sourcecode
+  pi.setSourceCode("process=_*(0.5);", true);
+  //pi.setSourceCode("gain = hslider(\"gain\", 1., 0., 1., 0.);\nprocess = _*(gain);", true); // with one param
+  
   pi.prepareToPlay(44100., 8);
   AudioSampleBuffer buffer(1, 8);
   MidiBuffer midiMessages;
@@ -20,7 +25,7 @@ int main (int argc, char* argv[])
   
   Logger::getCurrentLogger()->writeToLog(inputSamplesStr);
   
-  pi.setParameter(0, 0.5);
+  //pi.setParameter(0, 0.5);
   pi.processBlock(buffer, midiMessages);
   
   String outputSamplesStr;
