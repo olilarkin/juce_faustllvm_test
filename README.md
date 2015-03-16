@@ -1,6 +1,6 @@
 # juce_faustllvm CLI test project
 
-This is an Introjucer project for building a command line app to test the [juce_faustllvm](https://github.com/CMRCYork/juce_faustllvm) JUCE module
+This is an Introjucer project for building a command line app to test the [juce_faustllvm](https://github.com/CMRCYork/juce_faustllvm) JUCE module.
 
 **License:**
 
