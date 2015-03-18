@@ -58,12 +58,12 @@
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
                        isDebug="1" optimisation="1" targetName="juce_faustllvm_test"
-                       headerPath="&quot;C:\Users\Oliver Larkin\Dev\include\&quot;"
-                       libraryPath="C:\LLVM-build\lib\Debug&#10;C:\openssl\lib" useRuntimeLibDLL="1"/>
+                       headerPath="C:\Users\Oliver Larkin\Dev\include\" libraryPath="C:\LLVM-build\lib\Debug&#10;C:\openssl\lib"
+                       useRuntimeLibDLL="1"/>
         <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
                        isDebug="0" optimisation="2" targetName="juce_faustllvm_test"
-                       headerPath="&quot;C:\Users\Oliver Larkin\Dev\include\&quot;"
-                       libraryPath="C:\LLVM-build\lib\Release&#10;C:\openssl\lib" useRuntimeLibDLL="1"/>
+                       headerPath="C:\Users\Oliver Larkin\Dev\include\" libraryPath="C:\LLVM-build\lib\Release&#10;C:\openssl\lib"
+                       useRuntimeLibDLL="1"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_gui_extra" path="../../juce"/>
