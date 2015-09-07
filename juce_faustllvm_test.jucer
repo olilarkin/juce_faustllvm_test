@@ -2,7 +2,7 @@
 
 <JUCERPROJECT id="LEAJNY" name="juce_faustllvm_test" projectType="consoleapp"
               version="1.0.0" bundleIdentifier="com.OliLarkin.juce_faustllvm_test"
-              includeBinaryInAppConfig="1" jucerVersion="3.1.1">
+              includeBinaryInAppConfig="1" jucerVersion="3.2.0">
   <MAINGROUP id="K8mqIF" name="juce_faustllvm_test">
     <GROUP id="{C852DB29-6177-22A7-901A-CC2704712467}" name="Source">
       <FILE id="VZlCma" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
@@ -14,12 +14,12 @@
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="10.7 SDK" osxArchitecture="64BitUniversal"
                        isDebug="1" optimisation="1" targetName="juce_faustllvm_test"
-                       libraryPath="/opt/local/libexec/llvm-3.5/lib" headerPath="/usr/local/include/"
-                       cppLibType="libc++"/>
+                       libraryPath="/opt/local/libexec/llvm-3.5/lib&#10;/usr/local/lib"
+                       headerPath="/usr/local/include/" cppLibType="libc++"/>
         <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="10.7 SDK" osxArchitecture="64BitUniversal"
                        isDebug="0" optimisation="2" targetName="juce_faustllvm_test"
-                       libraryPath="/opt/local/libexec/llvm-3.5/lib" headerPath="/usr/local/include/"
-                       cppLibType="libc++"/>
+                       libraryPath="/opt/local/libexec/llvm-3.5/lib&#10;/usr/local/lib"
+                       headerPath="/usr/local/include/" cppLibType="libc++"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
