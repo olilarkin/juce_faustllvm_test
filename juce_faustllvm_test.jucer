@@ -2,7 +2,7 @@
 
 <JUCERPROJECT id="LEAJNY" name="juce_faustllvm_test" projectType="consoleapp"
               version="1.0.0" bundleIdentifier="com.OliLarkin.juce_faustllvm_test"
-              includeBinaryInAppConfig="1" jucerVersion="3.2.0">
+              includeBinaryInAppConfig="1" jucerVersion="4.1.0">
   <MAINGROUP id="K8mqIF" name="juce_faustllvm_test">
     <GROUP id="{C852DB29-6177-22A7-901A-CC2704712467}" name="Source">
       <FILE id="VZlCma" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
@@ -79,15 +79,15 @@
     </VS2013>
   </EXPORTFORMATS>
   <MODULES>
-    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="1"/>
-    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="1"/>
-    <MODULES id="juce_core" showAllCode="1" useLocalCopy="1"/>
-    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="1"/>
-    <MODULES id="juce_events" showAllCode="1" useLocalCopy="1"/>
-    <MODULES id="juce_faustllvm" showAllCode="1" useLocalCopy="1"/>
-    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="1"/>
-    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="1"/>
-    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_faustllvm" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
   </MODULES>
   <JUCEOPTIONS JUCE_PLUGINHOST_VST="disabled" JUCE_PLUGINHOST_VST3="disabled"
                JUCE_PLUGINHOST_AU="disabled"/>
