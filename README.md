@@ -1,6 +1,6 @@
 # juce_faustllvm CLI test project
 
-This is an Introjucer project for building a command line app to test the [juce_faustllvm](https://github.com/CMRCYork/juce_faustllvm) JUCE module. 
+This is an Introjucer project for building a command line app to test the [juce_faustllvm](https://github.com/olilarkin/juce_faustllvm) JUCE module. 
 
 ##Dependencies:
 
@@ -18,14 +18,10 @@ the paths to these things can be modified via the .jucer project
 
 **JUCE_FAUSTLLVM Module Dependencies**
 
-There are more dependencies which are described in the juce_faustllvm [README.md](https://github.com/CMRCYork/juce_faustllvm)
+There are more dependencies which are described in the juce_faustllvm [README.md](https://github.com/olilarkin/juce_faustllvm)
 
 **License:**
 
-  Written by Oliver Larkin    
-  Contemporary Music Research Centre  
-  Music Department  
-  University of York  
-  License: none
-  
-  www.cmrcyork.org | www.olilarkin.co.uk
+  Written by Oliver Larkin  
+  License: N/A  
+  www.olilarkin.co.uk
