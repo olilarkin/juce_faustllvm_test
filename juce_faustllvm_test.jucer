@@ -2,7 +2,8 @@
 
 <JUCERPROJECT id="LEAJNY" name="juce_faustllvm_test" projectType="consoleapp"
               version="1.0.0" bundleIdentifier="com.OliLarkin.juce_faustllvm_test"
-              includeBinaryInAppConfig="1" jucerVersion="4.2.0">
+              includeBinaryInAppConfig="1" jucerVersion="5.1.2" displaySplashScreen="0"
+              reportAppUsage="1" splashScreenColour="Dark" cppLanguageStandard="11">
   <MAINGROUP id="K8mqIF" name="juce_faustllvm_test">
     <GROUP id="{C852DB29-6177-22A7-901A-CC2704712467}" name="Source">
       <FILE id="VZlCma" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
@@ -11,13 +12,13 @@
   <EXPORTFORMATS>
     <XCODE_MAC targetFolder="Builds/MacOSX" extraLinkerFlags="" externalLibraries="">
       <CONFIGURATIONS>
-        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="10.9 SDK" osxArchitecture="64BitUniversal"
+        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="10.12 SDK" osxArchitecture="Native"
                        isDebug="1" optimisation="1" targetName="juce_faustllvm_test"
-                       libraryPath="/opt/local/libexec/llvm-3.7/lib&#10;/usr/local/lib"
+                       libraryPath="/opt/local/libexec/llvm-5.0/lib&#10;/usr/local/lib&#10;/opt/local/lib"
                        headerPath="/usr/local/include/" cppLibType="libc++"/>
-        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="10.9 SDK" osxArchitecture="64BitUniversal"
-                       isDebug="0" optimisation="2" targetName="juce_faustllvm_test"
-                       libraryPath="/opt/local/libexec/llvm-3.7/lib&#10;/usr/local/lib"
+        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="10.12 SDK"
+                       osxArchitecture="64BitUniversal" isDebug="0" optimisation="2"
+                       targetName="juce_faustllvm_test" libraryPath="/opt/local/libexec/llvm-5.0/lib&#10;/usr/local/lib&#10;/opt/local/lib"
                        headerPath="/usr/local/include/" cppLibType="libc++"/>
       </CONFIGURATIONS>
       <MODULEPATHS>

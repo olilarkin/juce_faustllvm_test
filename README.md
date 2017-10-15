@@ -2,7 +2,7 @@
 
 This is an Introjucer project for building a command line app to test the [juce_faustllvm](https://github.com/olilarkin/juce_faustllvm) JUCE module. 
 
-##Dependencies:
+## Dependencies:
 
 Due to the complexity of this project please closely follow the instructions:
 
